@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="./search.css">
+    </head>
+    <body>
+        <div id="google_r_logo"><a href="./index.html"><img src="./google.png" alt="google" width="100"></a></div>
+        <div class="home_page_links">
+            <div class="page_links">
+                <p></p><a href="./index.html">Google Search</a><br>
+                <a href="./adv-search.html">Advanced Search</a><br>
+                <a href="./img-search.html">Image Search</a></p>
+            </div>
+        </div>
+        <div class="search_title_div">Google Advanced Search</div>
+        <div class="search_form_div_adv">
+            <form action="https://www.google.com/search" method="get">
+                <div>
+                    <div><label id="search_label_all_word_id_adv" for="search_input_id_adv">all these words:</label>
+                    <input id="search_input_as_q_id_adv" type="text" name="as_q">
+                </div>
+                <p>
+                <div>
+                    <label id="search_label_exact_word_id_adv" for="search_input_id_adv">this exact word or phrase:</label>
+                    <input id="search_input_as_epq_id_adv" type="text" name="as_epq">
+                </div>
+                </p>
+                <p>
+                    <div>
+                        <label id="search_label_any_word_id_adv" for="search_input_id_adv">any of these words:</label>
+                        <input id="search_input_as_oq_id_adv" type="text" name="as_oq">
+                    </div>
+                </p>
+                <p>
+                    <div>
+                        <label id="search_label_none_id_adv" for="search_input_id_adv">none of these words:</label>
+                        <input id="search_input_as_eq_id_adv" type="text" name="as_eq">
+                    </div>
+                </p>
+                <div id="search_submit_id_adv" >
+                    <p><input id="search_submit_button_id_adv" type="submit" value="Advanced Search"></p>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

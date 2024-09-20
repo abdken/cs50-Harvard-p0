@@ -1,0 +1,112 @@
+.search_title_div {
+  color: #ff7847;
+  text-align: center;
+  padding: 25px;
+  margin: auto;
+  font-size: 25px;
+}
+
+.search_form_div {
+  justify-content: center;
+  display: flex;
+}
+
+.search_form_div_adv {
+  justify-content: left;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#search_label_all_word_id_adv {
+  padding-right: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#search_label_exact_word_id_adv {
+  padding-right: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#search_label_any_word_id_adv {
+  padding-right: 75px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#search_label_none_id_adv {
+  padding-right: 68px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#search_input_as_q_id_adv {
+  border: 2px solid #ecedea;
+  width: 600px;
+  height: 27px;
+  margin-left: 100px;
+}
+
+#search_input_as_epq_id_adv {
+  border: 2px solid #ecedea;
+  width: 600px;
+  height: 27px;
+  margin-left: 93px;
+}
+
+#search_input_as_oq_id_adv {
+  border: 2px solid #ecedea;
+  width: 600px;
+  height: 27px;
+  margin-left: 97px;
+}
+
+#search_input_as_eq_id_adv {
+  border: 2px solid #ecedea;
+  width: 600px;
+  height: 27px;
+  margin-left: 93px;
+}
+
+#search_input_id {
+  border-radius: 25px;
+  border: 2px solid #ecedea;
+  width: 700px;
+  height: 30px;
+  padding-left: 5px;
+}
+
+#search_submit_id_adv {
+  margin-left: 800px;
+}
+
+#search_submit_button_id_adv {
+  background-color: #008CBA;
+  color: #ecedea;
+  display: inline-block;
+}
+
+#search_submit_id_img {
+  padding-left: 300px;
+}
+
+.page_links {
+  text-align: right;
+}
+
+.home_page_links {
+  margin: auto;
+  padding: 5px;
+}
+
+#google_r_logo {
+  padding-left: 5px;
+}
+
+#google_home_logo {
+  display: inline-block;
+  margin-top: 60px;
+}
+
+#home_page {
+  text-align: center;
+}
+
+/*# sourceMappingURL=search.css.map */
